@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<form id="calc">
+            <lavel class="x"> First number</lavel>
+            <input id="x" type="number" required>
+
+            <label class="y">Second number</label>
+            <input id="y" type = 'number' required>
+
+            <button type="submit">Calculate</button>
+        </form>
+
+        <!--we want the results in DOM-->
+
+        <section id="results">
+            <div><span class="label">Sum:</span><output id="sum"></output></div>
+            <div><span class="label">Difference:</span> <output id="diff"></output></div>
+            <div><span class="label">Product:</span> <output id="prod"></output></div>
+            <div><span class="label">Quotient:</span><output id ="quot"></output></div>
+        </section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
