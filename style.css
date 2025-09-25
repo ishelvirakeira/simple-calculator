@@ -1,0 +1,11 @@
+body{
+    text-align: center
+}
+
+#results{
+    padding-top: 20px;
+}
+
+.label{
+    color: green;
+}
